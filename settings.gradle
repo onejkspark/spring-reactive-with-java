@@ -2,6 +2,16 @@ rootProject.name = 'reactive'
 
 include ':reactivebook:chapter0'
 include ':reactivebook:chapter1'
-include ':toby:chapter1'
-include ':toby:chapter2'
-include ':toby:chapter3'
+
+include(
+        ':toby:chapter1',
+        ':toby:chapter2',
+        ':toby:chapter3',
+        ':toby:chapter4',
+        ':toby:chapter5',
+        ':toby:chapter6',
+        ':toby:chapter7',
+        ':toby:chapter8',
+        ':toby:chapter9',
+        ':toby:chapter10'
+)
