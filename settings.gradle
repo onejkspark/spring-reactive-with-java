@@ -1,8 +1,9 @@
 rootProject.name = 'reactive'
 
-include ':reactivebook:chapter0'
-include ':reactivebook:chapter1'
-
+include(
+        ':reactivebook:chapter0',
+        ':reactivebook:chapter1'
+)
 include(
         ':toby:chapter1',
         ':toby:chapter2',
@@ -14,4 +15,7 @@ include(
         ':toby:chapter8',
         ':toby:chapter9',
         ':toby:chapter10'
+)
+nclude(
+        ':sample:ch1',
 )
