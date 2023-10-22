@@ -1,9 +1,15 @@
 rootProject.name = 'reactive'
 
+// book
 include(
         ':reactivebook:chapter0',
-        ':reactivebook:chapter1'
+        ':reactivebook:chapter1',
+
+
+        ':reactivebook:chapter8'
 )
+
+// toby
 include(
         ':toby:chapter1',
         ':toby:chapter2',
@@ -16,6 +22,9 @@ include(
         ':toby:chapter9',
         ':toby:chapter10'
 )
+
+
+// sample
 include(
         ':sample:ch1',
 )
